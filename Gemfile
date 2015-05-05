@@ -44,3 +44,16 @@ group :development, :test do
   gem 'spring'
 end
 
+
+gem 'bootstrap-sass'
+gem 'high_voltage'
+gem 'simple_form'
+gem 'thin'
+
+group :development do
+  gem 'better_errors'
+  gem 'foreman'
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
