@@ -1,0 +1,10 @@
+<%= form_tag text_imports_path, multipart: true do %>
+
+        <%= file_field_tag :file, :required => true %>
+        </br>
+        </br>
+        <%= button_tag :class => 'btn-large waves-effect waves-green green modal-trigger',  :href => "#modal1" do %>
+          <i class="mdi-editor-attach-file left"></i> Importar
+      <% end %>
+
+  <% end %>

@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'visitors#index'
+  resources :text_imports, :only => [:create, :index]
+
+  root to: 'text_imports#new'
 end

@@ -7,18 +7,17 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
+gem 'nokogiri'
+gem 'thin'
+gem 'materialize-sass'
+
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
-end
-gem 'bootstrap-sass'
-gem 'high_voltage'
-gem 'simple_form'
-gem 'thin'
-group :development do
   gem 'better_errors'
   gem 'foreman'
   gem 'rails_layout'
 end
+
