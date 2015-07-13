@@ -1,9 +1,10 @@
 Cloud Text
 ================
 
-This is a simple Ruby on Rails project which cleans a XML file from E-democracia Chat log
+This is a simple Ruby on Rails project which cleans a XML file from E-democracia Chat log.
 
 
+It was licensed under [LICENSE.md]
 
 
 
